@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.container{
+
+    padding: 10px 5%;
+}
+.container1{
+
+    padding: 10px 10%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/NIELIT.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+    font-size: 25px;
+}
+
+ul li +li ::before{
+    content: "|";
+    padding: 1px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #1a009d;}
+
+    #header-text1{
+        color: #ffffff;
+        margin-top: 10%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #header-text{
+        color: black;
+        margin-top: 5%;
+        font-size: 25px;
+        text-align: center;
+    }    
+
+    .butt{
+        background-color: rgb(15, 99, 99);
+        color: rgb(255, 255, 255);
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 15px;
+        animation: blink 2s linear infinite;
+
+    }
+
+    @keyframes blink{
+        50%{
+            opacity: 0;
+            background-color: rgb(4, 50, 50);
+
+        }
+        100%{
+            opacity: .5;
+            background-color: rgb(215, 86, 6);
+        }
+    }
+
+    .box1{
+        box-sizing: border-box;
+        margin: 10%;
+        padding: 70px;
+        border: 2px solid #d1d1d1;
+        border-radius: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .box2{
+        box-sizing: border-box;
+        padding: 50px;
+    }
+
+    /*Nielit club section*/
+
+.nielitclub2{
+    padding:15px 9%;
+    padding-bottom: 100px;
+    background-color: #f6e5e5;
+}    
+
+.nielitclub2 .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.nielitclub2 .nielitclub{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+
+.nielitclub2 .nielitclub .nltcon{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+
+.nielitclub2 .nielitclub .nltcon img{
+    height: 80px;
+    border-radius: 50px;
+}
+
+.nielitclub2 .nielitclub .nltcon  h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+
+
+.nielitclub2 .nielitclub .nltcon .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+
+.nielitclub2 .nielitclub .nltcon .btn:hover{
+    letter-spacing: 1px;
+}
+
+
+.nielitclub2 .nielitclub .nltcon .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .nielitclub2{
+        padding:20px;
+    }
+}
+
+/*Upcoming event sectio
+.nielitclub{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    background-color: #ccc;
+}
+
+.nltcon{
+    width: 20%;
+    height: 300px;
+    background-color: #38e0e2;
+    margin: 15px;
+    box-sizing: border-box;
+    font-size: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+n*/
+
+
+    /*Upcoming event section*/
+
+#upcoming-events{
+    margin-top: -200px;
+    padding: 100px;
+}
+
+.uptext{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+    .event-container {
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: 100px;
+    }
+    .event-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .event-date {
+        font-style: italic;
+        color: #666;
+    }
+
+    /*gallery section*/
+
+ .gallerysection{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+ }   
+
+
+ .slider{
+    width: 60%;
+    height: 600px;
+    background-image:url(img/gal/4.jpg) ;
+    background-size: 100% 100%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    animation: imgchng 70s linear infinite;
+    border-radius: 20px;
+ }
+
+ @keyframes imgchng {
+
+    0%{
+        background-image: url(img/gal/4.jpg);
+    }
+    
+    10%{
+        background-image: url(img/gal/5.jpg);
+    }
+
+    20%{
+        background-image: url(img/gal/6.jpg);
+    }
+    30%{
+        background-image: url(img/gal/7.jpg);
+    }
+    40%{
+        background-image: url(img/gal/10.jpg);
+    }
+    50%{
+        background-image: url(img/gal/13.jpg);
+    }
+    60%{
+        background-image: url(img/gal/14.jpg);
+    }
+    70%{
+        background-image: url(img/gal/15.jpg);
+    }
+    80%{
+        background-image: url(img/gal/17.jpg);
+    }
+    90%{
+        background-image: url(img/gal/18.jpg);
+    }
+    100%{
+        background-image: url(img/gal/8.jpg);
+    }
+
+ }
+
+    
+
+
+
+    /* footer section */
+
+    .footer {
+        background-color: #38e0e2;
+        color: #000000;
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      .social-icons {
+        margin-top: 10px;
+      }
+      
+      .icon {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      
+      .icon img {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+      }
+    
+    footer div a{
+        text-decoration: None;
+        color: aqua;
+      }
+      

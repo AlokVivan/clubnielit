@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.containe{
+
+    padding: 10px 5%;
+}
+
+#header{
+    background-color: white;
+}
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    font-size: 25px;
+}
+
+ul li +li ::before{
+    content: "|";
+    padding: 1px;
+
+}
+
+ul li ul.dropmenu li {
+    display: block;
+    width: 100%;
+    background: white;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #1a009d;}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .student-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .student-card img {
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+  }
+  
+  .student-card h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .student-card p {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+  }
+  
