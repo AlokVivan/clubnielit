@@ -20,6 +20,32 @@
     background-size: cover;
 }
 
+
+.dropdown{
+    display: block;
+    position: absolute;
+    margin-top: 10.5px;
+}
+
+
+
+
+/*
+
+nav ul li:hover.dropdown{
+    display: block;
+    position: absolute;
+    margin-top: 10.5px;
+}
+ul li :hover.dropdown{    
+    display: block;
+    position: absolute;
+}*/
+
+.dropdown li {
+    display: block;
+}
+
 nav{
 
     display: flex;
@@ -34,18 +60,31 @@ nav{
     "wdth" 100;
 }
 
+
+ul{
+    background-color: white;
+}
+
+ul li :hover{
+    background-color: #666;
+    color: #38e0e2;
+}
+
 ul li {
     list-style-type: none;
+    background-color: white;
+
     display: inline-block;
     margin: 5px;
     font-size: 25px;
 }
 
+/*
 ul li +li ::before{
     content: "|";
     padding: 1px;
 
-}
+}*/
 
 ul li a{
     text-decoration: none;
