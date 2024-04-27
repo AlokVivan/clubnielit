@@ -15,11 +15,10 @@
 
     padding: 10px 10%;
     height: 50vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/NIELIT.jpg); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/NIELIT.jpg?v=1714047728213); 
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .dropdown{
     display: block;
@@ -140,7 +139,9 @@ ul li a{
         padding: 50px;
     }
 
-    /*Nielit club section*/
+
+
+  /*Nielit club section*/
 
 .nielitclub2{
     padding:15px 9%;
@@ -212,30 +213,6 @@ ul li a{
     }
 }
 
-/*Upcoming event sectio
-.nielitclub{
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: wrap;
-    background-color: #ccc;
-}
-
-.nltcon{
-    width: 20%;
-    height: 300px;
-    background-color: #38e0e2;
-    margin: 15px;
-    box-sizing: border-box;
-    font-size: 35px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-
-}
-
-n*/
-
 
     /*Upcoming event section*/
 
@@ -282,7 +259,7 @@ n*/
  .slider{
     width: 60%;
     height: 600px;
-    background-image:url(img/gal/4.jpg) ;
+    background-image:url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/6.jpg?v=1714047762886) ;
     background-size: 100% 100%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     animation: imgchng 70s linear infinite;
@@ -290,43 +267,41 @@ n*/
  }
 
  @keyframes imgchng {
-
     0%{
-        background-image: url(img/gal/4.jpg);
+        background-image: url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/6.jpg?v=1714047762886);
     }
     
     10%{
-        background-image: url(img/gal/5.jpg);
+        background-image: url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/7.jpg?v=1714047764722);
     }
 
     20%{
-        background-image: url(img/gal/6.jpg);
+        background-image: url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/8.jpg?v=1714047767039);
     }
     30%{
-        background-image: url(img/gal/7.jpg);
+        background-image: url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/10.jpg?v=1714047769136);
     }
     40%{
-        background-image: url(img/gal/10.jpg);
+        background-image: url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/13.jpg?v=1714047770962);
     }
     50%{
-        background-image: url(img/gal/13.jpg);
+        background-image: url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/14.jpg?v=1714047772595);
     }
     60%{
-        background-image: url(img/gal/14.jpg);
+        background-image: url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/15.jpg?v=1714047774500);
     }
     70%{
-        background-image: url(img/gal/15.jpg);
+        background-image: url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/17.jpg?v=1714047776386);
     }
     80%{
-        background-image: url(img/gal/17.jpg);
+        background-image: url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/18.jpg?v=1714047777531);
     }
     90%{
-        background-image: url(img/gal/18.jpg);
+        background-image: url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/4.jpg?v=1714047780801);
     }
     100%{
-        background-image: url(img/gal/8.jpg);
+        background-image: url(https://cdn.glitch.global/539d642d-1a91-40cf-93f6-fbc112e7bb9c/5.jpg?v=1714047820744);
     }
-
  }
 
     
@@ -335,7 +310,7 @@ n*/
 
     /* footer section */
 
-    .footer {
+     .footer {
         background-color: #38e0e2;
         color: #000000;
         padding: 20px;
